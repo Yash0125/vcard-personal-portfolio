@@ -941,7 +941,7 @@ main {
 
 .project-list {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   margin-bottom: 10px;
 }
@@ -1031,6 +1031,35 @@ main {
   color: var(--light-gray-70);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
+}
+
+.project-details{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.project-description{
+  display: flex;
+  flex-direction: column;
+}
+
+.project-github{
+display: flex;
+align-items: center;
+color: white;
+margin-left: 60%;
+}
+
+.Github{
+  color:white ;
+  height: 60px;
+  margin-right: 20px;
+  justify-content: start;
+}
+.Github:hover{
+  transform: scale(1.5)
 }
 
 
