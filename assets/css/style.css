@@ -754,6 +754,13 @@ main {
   transition: var(--transition-1);
 }
 
+.client-skills-name{
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
 .clients-item img:hover { filter: grayscale(0); }
 
 
