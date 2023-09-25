@@ -1063,7 +1063,6 @@ main {
 display: flex;
 align-items: center;
 color: white;
-margin-left: 60%;
 }
 
 .Github{
@@ -1071,6 +1070,10 @@ margin-left: 60%;
   height: 60px;
   margin-right: 20px;
   justify-content: start;
+  margin-left: 50%;
+  position: relative;
+  bottom: 8px;
+  left: 15px;
 }
 .Github:hover{
   transform: scale(1.5)
